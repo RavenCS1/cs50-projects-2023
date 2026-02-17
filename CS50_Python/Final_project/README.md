@@ -1,8 +1,8 @@
-# YouTube Playlist Manager 📱🎵
+# YouTube Playlist Manager
 
 Console tool for managing YouTube playlists saved in CSV files. Created as backup for lost playlists after a hacked Google account.
 
-## ✨ Features
+## Features
 
 | Operator | Action |
 |----------|--------|
@@ -16,7 +16,7 @@ Console tool for managing YouTube playlists saved in CSV files. Created as backu
 | `delete` | Delete entire file (with confirmation) |
 | `exit` | Exit program |
 
-## 🚀 Quick Start
+## Quick Start
 
 Install dependencies
 pip install -r requirements.txt
@@ -31,14 +31,14 @@ python project.py
 
 Built-in input validation and infinite loops - errors don't crash the app.
 
-## 📄 CSV File Structure
+## CSV File Structure
 
 - **id**: Auto-incremented
 - **author**: Artist/performer
 - **title**: Song title
 - **url**: Full YouTube link
 
-## 🧪 Tests
+## Tests
 
 python test_project.py
 
@@ -47,7 +47,7 @@ Tests validate:
 - YouTube URL format
 - `.csv` filenames
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
@@ -57,20 +57,20 @@ Tests validate:
 | `requirements.txt` | Python dependencies |
 | `README.md` | This documentation |
 
-## 📦 Dependencies
+## Dependencies
 
 pytube # YouTube metadata fetching
 pyfiglet # Fancy startup text
 tabulate # Pretty tables
 unicodecsv # Unicode CSV handling
 
-## 🔧 Input Validation
+## Input Validation
 
 - **Filename**: `r".*.csv"` (regex)
 - **YouTube URL**: `r"https?://www\.?youtube\.com/.*"` (regex)
 - **Actions**: 9 allowed commands list
 
-## 💡 Special Features
+## Special Features
 
 - **Automatic duplicate detection** when adding
 - **ASCII tables** via `tabulate`
