@@ -1,5 +1,5 @@
-# CS50x 2025 - My Harvard CS Journey
-![CS50](https://img.shields.io/badge/CS50-Harvard-blue?style=flat&logo=harvard)
+# CS50x 2023 - My Harvard CS Journey
+![CS50](https://img.shields.io/badge/CS50-Harvard-blue?style=flat&logo=harvard) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Repository with my projects from **CS50 Introduction to Computer Science** and **CS50 Introduction to Programming with Python** (2023).
 
